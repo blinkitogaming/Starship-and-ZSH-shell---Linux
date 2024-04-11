@@ -1,6 +1,6 @@
 # Starship shell - Linux
 
-## Description
+## Descripción
 Puesta en marcha y configuración de la terminal Starship y ZSH para Linux.
 
 ### Pre-requisitos
