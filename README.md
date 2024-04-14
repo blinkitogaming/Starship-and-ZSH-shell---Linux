@@ -43,7 +43,14 @@ Son los siguientes:
 
 * /.zsh/
     - functions.zsh (tiene funciones, de prueba viene una que invoca un mapa de colores con sus códigos para usar en ZSH. Puedes invocarlo con el comando 'colormap')
+
+* /.config/
     - starship.toml (archivo de configuración de la terminal de Starship)
 
-### Paso 4 - Reinicia tu terminal
+### Paso 4 - Cambia la terminal por defecto para tu usuario
+Usa el siguiente comando:
+
+    chsh <usuario> -s /bin/zsh
+
+### Paso 5 - Reinicia tu terminal
 Sal de la terminal y vuelve a abrir una nueva. Verás que ha cambiado por completo tanto en su estructura como en colores.
